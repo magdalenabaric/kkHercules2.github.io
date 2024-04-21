@@ -175,17 +175,18 @@ nav {
     background-color: transparent;
     color: rgb(231, 231, 231);
     font-size: 1.6vw;
-    border: 3px solid rgb(231, 231, 231);
     padding: 0.5% 3%;
     border-radius: 5vw;
     margin-top: 3%;
+    border: 2px solid white;
 }
 
 .info a:hover {
-    border: 5px solid rgb(231, 231, 231);
     background: rgba(149, 97, 47, 0.838);
     transition: 1s;
     color: rgb(231, 231, 231);
+    border: 2px solid white;
+
 }
 
 .info.active {
@@ -1261,7 +1262,7 @@ ul a:hover {
     }
 
     .info a:hover {
-        border: 2px solid rgb(231, 231, 231);
+        border: 1px solid rgb(231, 231, 231);
 
     }
 
@@ -1715,6 +1716,16 @@ ul a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+    .info a {
+        border: 0.5px solid rgb(231, 231, 231);
+
+    }
+
+    .info a:hover {
+        border: 1px solid rgb(231, 231, 231);
+
+    }
+
     .nav1 .img1 {
         display: block;
         width: 10%;
@@ -1794,15 +1805,7 @@ ul a:hover {
 }
 
 @media screen and (max-width: 479px) {
-    .info a {
-        border: 0.5px solid rgb(231, 231, 231);
 
-    }
-
-    .info a:hover {
-        border: 2px solid rgb(231, 231, 231);
-
-    }
 
     .nav1 {
         height: 10%;
@@ -1831,7 +1834,6 @@ ul a:hover {
 
     .info a {
         transform: scale(2);
-        border: 2px solid rgb(231, 231, 231);
         margin-left: -18%;
         margin-top: 8%;
     }
