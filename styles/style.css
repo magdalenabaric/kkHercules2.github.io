@@ -1255,6 +1255,15 @@ ul a:hover {
 }
 
 @media screen and (max-width: 767px) {
+    .info a {
+        border: 0.5px solid rgb(231, 231, 231);
+
+    }
+
+    .info a:hover {
+        border: 2px solid rgb(231, 231, 231);
+
+    }
 
     /* start of medium tablet styles */
     .info h1 {
@@ -1785,6 +1794,16 @@ ul a:hover {
 }
 
 @media screen and (max-width: 479px) {
+    .info a {
+        border: 0.5px solid rgb(231, 231, 231);
+
+    }
+
+    .info a:hover {
+        border: 2px solid rgb(231, 231, 231);
+
+    }
+
     .nav1 {
         height: 10%;
     }
