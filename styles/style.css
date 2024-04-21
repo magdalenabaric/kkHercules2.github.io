@@ -32,7 +32,9 @@ nav {
 }
 
 .picture {
-    width: 15vw;
+    width: 18vw;
+    margin-left: -15%;
+    margin-top: -15%;
 }
 
 .navigation {
@@ -1264,8 +1266,8 @@ ul a:hover {
 
     .picture {
         transform: scale(1.8);
-        margin-left: 50%;
-        margin-bottom: -5%;
+        margin-left: 15%;
+        margin-top: -30%;
     }
 
     .nav1 .img1 {
@@ -1834,8 +1836,8 @@ ul a:hover {
 
     .picture {
         transform: scale(2.5);
-        margin-left: 50%;
-        margin-bottom: -5%;
+        margin-left: 15%;
+        margin-top: -30%;
     }
 
     .nav2 .img1 {
